@@ -159,10 +159,10 @@ console.log(myBaby.play());
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+1. Windows Binding is esentially the global "scope" of the keyword. If no other rules are applied, this will be returned.
+2. Implicit Binding is the most common rule. On an invoked function it you can look to the left of the dot to see what 'this' will refer to. It only applies to objects with methods.
+3. Explicit Binding are able to immediately invoke the function. .call will pass in arguments 1 at a time. .apply will pass in arguments as an array.
+4. New Binding will construct a new object based on the new keyword and 'this' will point to it. When a function is invoked as a constructor along with this., it will point to the new object that's created.  
 */
 
 
